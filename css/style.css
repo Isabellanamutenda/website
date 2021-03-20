@@ -72,6 +72,12 @@ html{
     color: #fff;
     
 }
+.angle{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto !important;
+
+}
 /* menu btn styling */
 .menu-btn{
     color: #fff;
@@ -234,7 +240,7 @@ section .title::after{
 }
 .services .title::after{
     background: #111;
-    content: "what i provide";
+    content: "what i have done";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -524,4 +530,3 @@ section .title::after{
        
     }
 }
-
