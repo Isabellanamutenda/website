@@ -1,19 +1,26 @@
 {
+  "name": "portfolio-react-tailwind",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "lucide-react": "^1.42.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.7.0"
+  },
   "devDependencies": {
-    "@babel/core": "^7.22.17",
-    "@babel/eslint-parser": "^7.22.15",
-    "@babel/plugin-syntax-jsx": "^7.22.5",
-    "@babel/preset-react": "^7.22.15",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^3.0.3",
-    "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.11"
   }
 }
